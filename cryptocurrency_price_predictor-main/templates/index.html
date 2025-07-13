@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+    body {
+        background: url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y3J5cHRvfGVufDB8fDB8fHww') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .card {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+    }
+</style>
+<div class="container py-5">
+    <h1 class="text-center mb-4 text-light">Cryptocurrency Price Prediction</h1>
+    <p class="text-center  text-light ">Enter the details below to forecast Bitcoin (BTC) prices over a specified period.</p>
+    
+    <div class="card shadow-lg border-0 p-4">
+        <div class="card-body">
+            <form method="post" action="/">
+                <div class="mb-3">
+                    <label for="stock" class="form-label fw-bold">Cryptocurrency Ticker</label>
+                    <input type="text" class="form-control" id="stock" name="stock" placeholder="e.g., BTC-USD" required>
+                </div>
+                <div class="mb-3">
+                    <label for="no_of_days" class="form-label fw-bold">Prediction Duration (Days)</label>
+                    <input type="number" class="form-control" id="no_of_days" name="no_of_days" min="1" max="100" value="10" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Predict Price</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
