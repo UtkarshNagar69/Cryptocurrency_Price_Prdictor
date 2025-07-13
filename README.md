@@ -1,5 +1,3 @@
-Here is a **professional and structured README.md** for your project, based on the uploaded files:
-
 ---
 
 # 🪙 CryptoCurrency (Bitcoin) Price Prediction
@@ -127,7 +125,7 @@ The **Jupyter notebook** `CryptoCurrency(Bitcoin) Price Prediction.ipynb` contai
 
 ## 👨‍💻 **Author**
 
-* **Your Name:** Utkarsh Nagar *(replace with your full name if deploying)*
+* **Name:** Utkarsh Nagar 
 * **Contact:** [LinkedIn](#) | [Email](#)
 
 ---
@@ -139,9 +137,3 @@ The **Jupyter notebook** `CryptoCurrency(Bitcoin) Price Prediction.ipynb` contai
 * Ensure internet connectivity for data fetching.
 
 ---
-
-Let me know if you want:
-
-* `requirements.txt` generated for this project
-* Deployment guide for **Heroku, AWS, or Render**
-* Enhancements section for your resume or portfolio submission.
